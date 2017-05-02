@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@color/whiteColor"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.exam.gym.MainActivity"
+    tools:showIn="@layout/activity_main"
+    android:clickable="true">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableTop="@mipmap/ic_edit"
+        android:text="Планирование\n тренировочной недели"
+        android:id="@+id/but_go_edit"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/lay_button"
+        android:paddingBottom="10dp"
+        android:onClick="goEdit"
+        android:textColor="#050505"
+        android:textStyle="bold|normal"
+        android:typeface="serif"
+        android:gravity="center_vertical|center_horizontal" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableTop="@mipmap/ic_gym"
+        android:text="Список упражнений\n на сегодня"
+        android:id="@+id/but_view_ex"
+        android:layout_below="@+id/but_go_edit"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/lay_button"
+        android:layout_marginTop="30dp"
+        android:paddingBottom="10dp"
+        android:textColor="#050505"
+        android:textStyle="bold|normal"
+        android:typeface="serif"
+        android:gravity="center_vertical|center_horizontal"
+        android:onClick="goday" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="МЕНЮ"
+        android:id="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableTop="@mipmap/ic_list"
+        android:background="@drawable/lay_button"
+        android:text="Обзор упражнений\n в базе"
+        android:id="@+id/but_gym_list"
+        android:layout_below="@+id/but_view_ex"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:paddingBottom="10dp"
+        android:textColor="#050505"
+        android:textStyle="bold|normal"
+        android:typeface="serif"
+        android:onClick="goViewEx"
+        android:gravity="center_vertical|center_horizontal" />
+
+
+</RelativeLayout>

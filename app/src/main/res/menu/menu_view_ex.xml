@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.exam.gym.ViewExActivity">
+    <item
+        android:id="@+id/add_ex"
+        android:orderInCategory="100"
+        android:title="Добавить"
+        app:showAsAction="ifRoom" />
+</menu>

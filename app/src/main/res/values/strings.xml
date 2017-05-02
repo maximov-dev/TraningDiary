@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Дневник тренировок</string>
+    <string name="action_settings">Настройки</string>
+    <string name="about_author">О программе</string>
+    <string name="title_activity_add_new_ex">Тренировки</string>
+    <string name="title_activity_view_ex_list">Обзор</string>
+    <string name="title_activity_for_res_add_new_cat">Новое упражнение</string>
+    <string name="title_activity_add_ex_full">Добавление</string>
+    <string name="title_activity_overview_ex">Информация</string>
+    <string name="title_activity_splash_screen">SplashScreenActivity</string>
+</resources>

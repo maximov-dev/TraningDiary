@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.exam.gym">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_gym"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+
+        </activity>
+        <activity
+            android:name=".addNewEx"
+            android:label="@string/title_activity_add_new_ex"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ViewExList"
+            android:label="@string/title_activity_view_ex_list"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ForResAddNewCat"
+            android:label="@string/title_activity_for_res_add_new_cat"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".addExFull"
+            android:label="@string/title_activity_add_ex_full"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".overviewEx"
+            android:label="@string/title_activity_overview_ex"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SplashScreenActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

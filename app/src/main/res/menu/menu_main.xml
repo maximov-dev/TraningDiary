@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.exam.gym.MainActivity">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        android:onClick="onSettings"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/about_author"
+        android:orderInCategory="100"
+        android:title="@string/about_author"
+        android:onClick="onClickAuthor"
+        app:showAsAction="never" />
+</menu>
